@@ -108,6 +108,7 @@ body {
     display: flex;
     width: 60%;
     justify-content: space-between;
+    border-bottom:1px solid rgb(236, 231, 225);
 }
 
 .picture-wrapper {
