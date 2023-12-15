@@ -1,14 +1,21 @@
 body {
     height: 100vh;
-    background: #0E0E0E;
+    padding: 0;
+    margin: 0;
 }
 
 .index-container {
     display: flex;
+    background: #0E0E0E;
     flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
 }
 
 .hero-img {
    width: 100vw;
    height: auto;
+   border-top: 0.5px solid white;
+   border-bottom: 0.5px solid white;
 }
