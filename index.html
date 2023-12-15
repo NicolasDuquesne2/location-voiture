@@ -10,7 +10,25 @@
 <body>
 
     <main class="index-container">
-        <img src="./images/fond.jpg" alt="Bienvenue à bord" class="hero-img">
+        <section class="hero">
+            <div class="hero-describ-wrapper">
+                <h1 class="hero-title">Bienvenue à bord</h1>
+                <p class="hero-descr">Location de voiture 24h/24 et 7j/7</p>
+            </div>
+            <img src="./images/fond.jpg" alt="Bienvenue à bord" class="hero-img">
+            <form class="hero-form" action="./cars-list.html">
+                <div class="bg-grey">
+                    <select class="input select">
+                        <option value="" selected hidden>Adresse de départ</option>
+                    </select>
+                        <input type="date" placeholder="YYYY-MM-DD" class="input">
+                        <input type="date" placeholder="YYYY-MM-DD"class="input">
+                </div>
+                <div class="bg-green">
+                    <button class="button">Valider ma recherche</button>
+                </div>  
+            </form>
+        </section>
     </main>
 
 
